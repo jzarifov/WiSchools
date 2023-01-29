@@ -1,0 +1,240 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: calc(100% - 200px);
+    margin: 0 auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    font-family: "Open Sans";
+}
+nav ul li{
+    margin-right: 20px;
+}
+.nav-right a,
+.nav-right button
+{
+    padding: 12px 24px;
+}
+.nav-right a{
+    color: #09B451;
+    text-decoration: none;
+    font-family: "Open Sans";
+    font-weight: bolder;
+}
+.button{
+    background-color: #09B451;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 12px 24px;
+
+}
+main{
+    display: flex;
+    background-color: black;
+    border-radius: 50px;
+    background: linear-gradient(35deg, #e4ffff ,#fff, #fff);
+    box-shadow:inset -100px 0 0 #e4ffff;
+    margin-top: 30px;
+}
+main .left b{
+    font-size: 3rem;
+    font-family: sans-serif;
+}
+main .left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+}
+main .left span{
+    color: #09B451;
+}
+.info{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px 0;
+}
+.info-item{
+    display: flex;
+    background-color: #ddffff;
+    padding: 15px;
+    border-radius: 5px;
+}
+.info-item .icon{
+    background-color: #09b451;
+    color: #fff; 
+    padding: 10px 18px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+}
+.text{
+    display: flex;
+    justify-content: space-between;
+}
+.text b{
+    font-family: sans-serif;
+    font-size: 32px;
+    color: #333;
+}
+.text p{
+    font-family: sans-serif;
+}
+.cards .title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Poppins';
+    margin-bottom: 30px;
+}
+.cards{
+    margin: 50px 0;
+}
+.card{
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px rgba( 128, 128, 128, 0.278 );
+    font-family: 'Poppins';
+}
+.card img{
+    width: 100%;
+    height: auto;
+    border-radius: inherit;
+}
+
+.card .detail{
+    padding: 15px;
+}
+.card-star{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-star i{
+    color: #09B451;
+    margin-right: 8px;
+}
+.detail-top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.detail-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.week{
+    display: flex;
+    align-items: center;
+    color: #333;
+    justify-content: center;
+}
+.week p{
+    margin-right: 10px;
+    color: #333;
+}
+.week i{
+    color: #09B451;
+}
+
+.price{
+    color: #09B451;
+    font-weight: bolder;
+    font-size: 22px;
+    font-family: 'Poppins';
+}
+
+.card-wrap{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+}
+.carousel img{
+    width: 100%;
+    height: auto;
+}
+.education{
+    font-family: sans-serif;
+}
+
+.education-main{
+    margin: 30px 0;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}
+.edu-left{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 50%;
+    padding: 20px;
+}
+.edu-left img{
+    border-radius: 29px 29px 78px 29px;
+}
+.edu-left .job{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 76px rgba( 112, 112, 112, 0.25);
+    border-radius: 6.88679px 6.88679px 17.217px 6.88679px;
+    padding: 30px 15px;
+    position: absolute;
+    background-color: #fff;
+    right: 20%;
+}
+.edu-right b{
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+}
+.edu-item{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+.edu-item p{
+    font-family: sans-serif;
+    margin-left: 20px;
+}
+.edu-item i{
+    background-color: #ddffff;
+    color: #09B451;
+    padding: 20px;
+    border-radius: 50%;
+}
+.edu-right{
+    padding: 20px;
+}
+.reviews{
+    display: flex;
+    font-family: sans-serif;
+}
+.reviews-text i{
+    padding: 20px;
+    border: 1px solid #09B451;
+    color: #09B451;
+    border-radius: 50%;
+}
